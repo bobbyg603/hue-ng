@@ -5,7 +5,7 @@
     </a>
   </li>
   <li [ngbNavItem]="link.fragment" *ngFor="let link of links">
-    <a ngbNavLink [routerLink]="link.routerLink" [fragment]="link.fragment">{{ link.title }}</a>
+    <a ngbNavLink [routerLink]="link.fragment">{{ link.title }}</a>
   </li>
 </ul>
 
